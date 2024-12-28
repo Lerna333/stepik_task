@@ -36,7 +36,7 @@ try:
     button = browser.find_element(By.ID, "solve")
     button.click()
 
-    # Успеваем скопировать код за 30 секунд
+    # Успеть скопировать код за 30 секунд
     time.sleep(10)
 
 finally:
